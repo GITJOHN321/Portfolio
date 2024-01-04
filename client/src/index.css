@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #202020;
+    color: white;
+}
+#presentation-image {
+
+    background-image:url(./assets/img/pxfuel.jpg);
+    max-width: 100%;
+    filter:brightness(0.4);
+    position: relative;
+}
+#presentation-image::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+  
+}
