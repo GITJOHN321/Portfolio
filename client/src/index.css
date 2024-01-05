@@ -2,20 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background: #202020;
+    background-color: #202020;
+    background-image: url(./assets/img/pattern3.svg);
     color: white;
 }
 #presentation-image {
 
     background-image:url(./assets/img/pxfuel.jpg);
-    max-width: 100%;
-    filter:brightness(0.4);
-    position: relative;
+    max-height: 100%;
+    
+
 }
-#presentation-image::before{
-    position: absolute;
-    content: "";
-    inset: 0;
-  
+
+@layer utilities{
+    .nav{
+        @apply  relative
+    }
+    .nav::after{
+        @apply content-[''] bg-sky-500 h-[3px] w-[0%] left-0 -top-[5px] rounded-xl absolute duration-300
+        
+    }
+    .nav:hover::after{
+        @apply w-[100%]
+    }
+    .link{
+        @apply relative
+    }
+    .link::after{
+        @apply content-[''] bg-sky-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+        
+    }
+    .link:hover::after{
+        @apply w-[90%]
+    }
+
+}
+@media (max-width:640px){
+    .visibility{
+        display: none;
+        transform: translateX(-500px);
+    }
+   
 }

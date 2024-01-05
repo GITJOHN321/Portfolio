@@ -4,7 +4,7 @@ function AboutForMe({ data }) {
   return (
     <div className="flex h-[calc(100vh-100px)] items-center justify-center">
       <div>
-        <div className="">
+        <div className="transition duration-300 hover:scale-110">
           <h3 className="font-bold text-2xl text-sky-500">Who Am I?</h3>
           <p>Hi, I'm {data.name}, I'm a Web Developer from colombia.</p>
           <p>
