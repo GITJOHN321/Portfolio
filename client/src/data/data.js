@@ -9,6 +9,7 @@ import {
   ViteSvg,
 } from "./urlSvg";
 import portfolioImage from "../assets/img/portada1.jpg";
+import formImage from "../assets/img/portada2.jpg"
 
 export const data = {
   name: "Sebastian Rodriguez",
@@ -64,9 +65,9 @@ export const DataProjects = [
   },
   { 
     id:2,
-    url: `https://github.com/GITJOHN321/Portfolio`,
-    title: "personal portfolio",
-    description: "This project is a personal portfolio made in react and tawilwindcss, using vite",
-    image: portfolioImage
+    url: `https://github.com/GITJOHN321/fromProject`,
+    title: "Questionarie",
+    description: "Project to create forms, made with: React Js and Tailwind css as main libraries in the front-end. Node Js and Express as main libraries for the back-end. MYSQL as a database manager.",
+    image: formImage
   },
 ];

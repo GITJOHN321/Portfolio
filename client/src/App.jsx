@@ -5,9 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <ActiveProvider>
-        <Routes>
-          <Route path="/" element={<HomePage></HomePage>}></Route>
-        </Routes>
+        <HomePage></HomePage>
       </ActiveProvider>
     </BrowserRouter>
   );

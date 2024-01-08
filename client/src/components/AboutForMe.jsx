@@ -1,5 +1,5 @@
 import Skills from "./skills";
-
+import { FaAngleRight } from "react-icons/fa";
 function AboutForMe({ data }) {
   return (
     <div className="flex h-[calc(100vh-100px)] items-center justify-center">
@@ -14,13 +14,13 @@ function AboutForMe({ data }) {
           <br />
           <h3 className="font-bold text-2xl text-sky-500">About For Me</h3>
           <ul>
-            <li>
-              I constantly study about good practices, new technologies and
+            <li className="flex items-center">
+            <FaAngleRight /> I constantly study about good practices, new technologies and
               innovative solutions.
             </li>
-            <li>My ability to learn and adapt is my greatest strength.</li>
-            <li>
-              I always polish my code in order to solve problems optimally and
+            <li className="flex items-center"><FaAngleRight />My ability to learn and adapt is my greatest strength.</li>
+            <li className="flex items-center">
+            <FaAngleRight />I always polish my code in order to solve problems optimally and
               elegantly.
             </li>
           </ul>
