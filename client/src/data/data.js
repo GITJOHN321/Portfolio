@@ -63,7 +63,7 @@ export const DataProjects = [
     image: portfolioImage
   },
   { 
-    id:1,
+    id:2,
     url: `https://github.com/GITJOHN321/Portfolio`,
     title: "personal portfolio",
     description: "This project is a personal portfolio made in react and tawilwindcss, using vite",
