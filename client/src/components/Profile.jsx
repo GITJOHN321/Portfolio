@@ -1,4 +1,4 @@
-import photo from "../assets/img/profile.png";
+import photo from "../assets/img/foto.png";
 import {
   FaGithub,
   FaLinkedin,

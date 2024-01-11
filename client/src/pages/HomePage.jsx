@@ -50,12 +50,12 @@ function HomePage() {
         </div>
         {isOpen && (
           <div className="sm:col-span-4 md:col-span-4 xl:col-span-5">
-            <div className="sm:h-screen sm:mb-5">
+            <div className="h-screen sm:mb-5">
               <section id="section1">
                 <Presentation data={data}></Presentation>
               </section>
             </div>
-            <div className="sm:h-screen sm:mb-5">
+            <div className="h-screen sm:mb-5">
               <section id="section2">
                 <AboutForMe data={data}></AboutForMe>
               </section>
